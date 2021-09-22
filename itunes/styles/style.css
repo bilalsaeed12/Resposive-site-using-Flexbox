@@ -1,0 +1,401 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+}
+
+header{
+    background-color: #333333;
+    height:50px;  
+
+
+}
+
+ul{
+    margin-left: 10px ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+        width: 30%;
+    height:50px;
+
+}
+
+header ul {
+    list-style: none;
+}
+header ul li a{
+    color:white;
+    text-decoration: none;
+}
+header ul li:hover{
+
+    opacity: 0.5;
+}
+.section-main{
+    background: url("../images/showcase.jpeg") no-repeat center;
+    margin: 0;
+    padding: 0;
+    width:100%;
+    height:100vh;
+    text-align: center;
+    color:white;
+}
+.text-section{
+    padding-top:300px;
+}
+.text-section h1{
+    font-size: 52px;
+}
+.text-section h2{
+    font-size: 36px;
+}
+.text-section p{
+    font-size: 24px;
+}
+.music-section{
+    min-height:1037px;
+    width: 100%;
+    background-color: #252529;
+    margin:0px;
+    padding:0px;
+
+}
+.music{
+    text-align: center;
+    color:white;
+    display: flex;
+justify-content: space-between;
+    flex-direction: column;
+    padding:40px;
+}
+.music img{
+    width: 65%;
+    align-self: center;
+}
+.music-section button{
+    background-color: #D3071B;
+    color:white;
+    height:57px;
+    width:167px;
+    align-self: center;
+    border: 1px solid #D3071B;
+}
+
+.music h1{
+    font-size: 32px;
+}
+
+.music h2{
+    font-size: 32px;
+}
+
+.music p{
+    font-size: 22px;
+}
+.collection-section{
+    min-height:1037px;
+    width: 100%;
+
+    margin:0px;
+    padding:0px;
+
+}
+.collection{
+
+        text-align: center;
+        color:black;
+        display: flex;
+    justify-content: space-between;
+        flex-direction: column;
+        padding:40px;
+    
+}
+.collection img{
+    width: 65%;
+    align-self: center;
+}
+
+.collection-section button{
+    background-color: #103063;
+    color:white;
+    height:57px;
+    width:104px;
+    align-self: center;
+    border: 1px solid #103063;
+}
+
+.collection p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;;
+    
+
+}
+.entertainment-section{
+    background: url("../images/section-bg.jpeg" ) no-repeat center;
+    margin: 0;
+    padding: 0;
+    width:100%;
+min-height:654px;
+
+    
+}
+
+
+.entertainment-text-section{
+    padding-top:300px;
+    text-align: center;
+    color:white;
+}
+.entertainment-text-section p{
+    font-size: 24px;
+    margin-top: 32px;
+}
+.entertainment-text-section h2{
+    font-size: 42px;
+}
+
+
+.card-section{
+    min-height:467px;
+    width: 100%;
+
+    margin:0px;
+    padding:0px;
+
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.card-item{
+    flex-basis:45%;
+    margin-top: 50px;
+
+
+}
+
+
+.gift-text{
+flex-basis:30%;
+
+}
+.gift-text p{
+font-size: 16px;
+}
+
+footer{
+    width: 100%;
+    min-height:358px;
+    background-color: #252529;
+}
+
+.footer-section{
+display: flex;
+flex-wrap: nowrap;
+}
+
+.footer-items{
+
+margin-top:100px;
+margin-left: 180px;
+color:white;
+
+}
+.footer-items ul{
+    margin-top: 20px;;
+}
+.footer-items ul li{
+list-style: none;
+font-size: 18px;
+color:#cccccc;
+}
+
+.footer-items hr{
+    height: 0.5px;
+    background-color: grey;
+    width:80%;
+    border: none;
+}
+
+.copy-right{
+    background-color: #333333;
+    height: 57px;
+    width:100%;
+}
+@media screen and (max-width:1300px) {
+header ul{
+    width: 40%;
+}
+}
+@media screen and (max-width:1000px) {
+header ul{
+    width: 50%;
+}
+}
+@media screen and (max-width:800px) {
+header ul{
+    width: 60%;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.card-item{
+    flex-basis:100%;
+    margin-top: 50px;
+
+
+}
+}
+@media screen and (max-width:600px) {
+    header ul{
+        width: 80%;
+    }
+    .card{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    
+    }
+    .card-item{
+        flex-basis:100%;
+        margin-top: 50px;
+    
+    
+    }
+    
+}
+@media screen and (max-width:414px) {
+    header ul{
+        width: 100%;
+padding: 05px;
+    }
+    .text-section{
+        padding-top: 200px;
+        
+    }
+    .text-section p{
+font-size: 5px;
+        
+    }
+    .text-section h2{
+        font-size: 17px;
+    }
+    .text-section h1{
+        font-size: 24px;
+    }
+    header ul li a{
+font-size: 16px;
+    }
+    .music img{
+        width: 100%;
+        align-self: center;
+    }
+    .collection img{
+        width: 100%;
+        align-self: center;
+    }
+    
+.entertainment-text-section{
+    padding-top:200px;
+    text-align: center;
+    color:white;
+}
+.entertainment-text-section p{
+    font-size: 14px;
+}
+.entertainment-text-section h2{
+    font-size: 23px;
+}
+.entertainment-section{
+    min-height: 550px;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.card-item{
+    flex-basis:100%;
+    margin-top: 50px;
+
+
+}
+
+
+.gift-text{
+text-align: center;
+
+}
+.gift-text p{
+font-size: 16px;
+}
+.card-item hr{
+    height: 0.5px;
+    background-color: grey;
+    width:80%;
+    border: none;
+    margin-left: 34px;
+}
+.card-section{
+    min-height: 500px;
+}
+.card-item .reedem{
+    margin-bottom:20px;
+}
+
+footer{
+    width: 100%;
+
+    background-color: #252529;
+    min-height: 200px;
+}
+.section-main{
+    height: 94vh;
+}
+
+.footer-section{
+    display: flex;
+    flex-direction: row;
+
+    min-height: 200px;
+    
+
+
+    }
+    
+    .footer-items{
+    flex-basis:22%;
+    margin-top:0px;
+margin:auto;
+    color:white;
+    font-size: 12px;
+    margin-top: 45px;
+    
+    
+    }
+    .footer-items hr{    height: 0.5px;
+        background-color: grey;
+        width:90%;
+        border: none;
+}
+.footer-items ul{
+    margin-top: 20px;;
+}
+.footer-items ul li{
+list-style: none;
+font-size: 12px;
+color:#cccccc;
+}
+}
